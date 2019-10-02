@@ -1,6 +1,6 @@
 {
     "name": "ng-defer-bootstrap",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "AngularJS extension that adds a method to hook into the defer bootstrap feature",
     "repository": {
         "type": "git",
