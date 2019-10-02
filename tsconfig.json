@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "none",
+    "lib": [ "es6", "dom" ],
+    "pretty": true,
+    "outFile": "./dist/ng-defer-bootstrap.js",
+    "rootDir": "./src",
+    "strict": true,
+    "alwaysStrict": false,
+    "types": [ "angular", "." ]
+  },
+  "include": [
+    "./src/**/*.ts"
+  ]
+}

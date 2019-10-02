@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <title>ng-defer-bootstrap test environment</title>
+    </head>
+    <body >
+
+        <script src="node_modules/angular/angular.js"></script>
+        <script src="dist/ng-defer-bootstrap.js"></script>
+        <script>
+            const app = angular.module('app', []);
+            angular.deferBootstrap(() => {
+                console.log('called before bootstrap process');
+            });
+        </script>
+    </body>
+</html>
+

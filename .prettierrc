@@ -1,0 +1,7 @@
+{
+    "singleQuote": true,
+    "arrowParens": "always",
+    "[ts]": {
+        "trailingComma": "es5"
+    }
+}

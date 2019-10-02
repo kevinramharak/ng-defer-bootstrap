@@ -1,0 +1,29 @@
+{
+    "name": "ng-defer-bootstrap",
+    "version": "1.0.0",
+    "description": "AngularJS extension that adds a method to hook into the defer bootstrap feature",
+    "keywords": [
+        "angularjs"
+    ],
+    "scripts": {
+        "build": "gulp",
+        "watch": "gulp watch",
+        "dev": "python -m http.server --bind localhost"
+    },
+    "author": "Kevin Ramharak <kevin@ramharak.nl>",
+    "license": "MIT",
+    "peerDependencies": {
+        "angular": "^1.7"
+    },
+    "devDependencies": {
+        "@types/angular": "^1.6.51",
+        "angular": "^1.7.0",
+        "gulp": "^3.9.1",
+        "gulp-rename": "^1.4.0",
+        "gulp-sourcemaps": "^2.6.4",
+        "gulp-typescript": "^5.0.0-alpha.3",
+        "gulp-uglify": "^3.0.1",
+        "typescript": "^3.5.3"
+    },
+    "types": "./index.d.ts"
+}
