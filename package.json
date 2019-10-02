@@ -2,6 +2,14 @@
     "name": "ng-defer-bootstrap",
     "version": "1.0.0",
     "description": "AngularJS extension that adds a method to hook into the defer bootstrap feature",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KevinRamharak/ng-defer-bootstrap.git"
+    },
+    "bugs": {
+        "url": "https://github.com/KevinRamharak/ng-defer-bootstrap/issues"
+    },
+    "homepage": "https://github.com/KevinRamharak/ng-defer-bootstrap#readme",
     "keywords": [
         "angularjs"
     ],
